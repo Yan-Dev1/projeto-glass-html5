@@ -24,7 +24,7 @@ p {
 
 header#cabecalho img#icone {
     position: absolute;
-    left: 1120px;
+    left: 1000px;
     top: 40px;
 }
 
@@ -120,4 +120,41 @@ nav#menu a {
 nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+section#corpo {
+    display: block;
+    width: 620px;
+    float: left;
+    border-right: 1px solid #606060 ;
+    padding-right: 15px;
+}
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 15px;
+    text-align: center;
+}
+
+aside#lateral {
+    display: block;
+    width: 400px;
+    float: right;
+    
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
 }
