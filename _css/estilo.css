@@ -236,6 +236,11 @@ aside#lateral h2 {
     padding: 2px;
 }
 
+.video-container {
+    width: 400;
+    height: 400px;
+}
+
 aside#lateral p {
     margin: 5px;
 }
